@@ -1,0 +1,13 @@
+Token,DisplayName,FRDisplayName
+Title,3x3 Tic Tac Toe,3x3 Tic Tac Toe
+GameOn,Game On,Jeu sur
+GameOver,Game Over,Jeu terminé
+YourTurn,It's your turn,It's your turn
+TheirTurn,It's their turn,It's their turn
+YouWon,You won,Vous êtes le gagnant du jeu
+TheyWon,You lost,"Désolé, vous n'avez pas gagné."
+Play,Let's Play!,Jouons!
+Resign,I'm out - You got this one!,Je suis dehors - Vous avez celui-ci!
+PlayAgain,Let's Play Again!,Jouons encore!
+Restart,Restart the game,Redémarrer le jeu
+Thinking,"Hang on, I'm thinking...","Hang on, I'm thinking..."

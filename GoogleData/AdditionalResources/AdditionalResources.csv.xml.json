@@ -1,0 +1,109 @@
+{
+  "AdditionalResources": {
+    "AdditionalResource": [
+      {
+        "Name": "Settings",
+        "Description": "Global settings for the entire TicTacToe project",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "0",
+        "IsActiveDownload": "FALSE"
+      },
+      {
+        "Name": "AdditionalResources",
+        "Description": "A list of additional resources used by the project",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "1887184744",
+        "IsActiveDownload": "FALSE"
+      },
+      {
+        "Name": "ProjectIntro",
+        "Description": "An introduction to the project",
+        "Type": "GDoc",
+        "GoogleKey": "1LVxFmVcm2DgzH2AGNQ4c9buus16l42a6aNhEmwqjWzs",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "Entities",
+        "Description": "A list of entities in the project (Player, Opponent, Game, Mark, Win, Loss, etc)",
+        "Type": "GSheet",
+        "GoogleKey": "1C_awugxQh7vQx4cCKGK7YKynOEUNdvT0htLzESZqhHA",
+        "GID": "0",
+        "IsActiveDownload": "FALSE"
+      },
+      {
+        "Name": "LanguageTokens",
+        "Description": "A list of language tokens used in the app.",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "112651157",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "AILevels",
+        "Description": "A list of AI Levels which the game supports starting with None (no ai) and working up to an AI that will win or tie every game.",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "260512170",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "AIStrategies",
+        "Description": "A list of strategies used by the AI, and which AI levels that start be used at.",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "780350443",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "Translations",
+        "Description": "A list of transaltions which any implementation of this game needs to support",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "1319606678",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "Cells",
+        "Description": "A formal list of the cells in the 3x3 game of tic tac toe.",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "1934124403",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "CellPatterns",
+        "Description": "A list of cells and a target if a match is found.",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "412235242",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "CellStates",
+        "Description": "A list of states that a cell can have",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "194238261",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "TranslationTests",
+        "Description": "These values validate the rotate and flip index values",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "1640541132",
+        "IsActiveDownload": "TRUE"
+      },
+      {
+        "Name": "TargetPlatforms",
+        "Description": "A list of target platforms that the SDK will support",
+        "Type": "GSheet",
+        "GoogleKey": "1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90",
+        "GID": "2077194606",
+        "IsActiveDownload": "TRUE"
+      }
+    ]
+  }
+}

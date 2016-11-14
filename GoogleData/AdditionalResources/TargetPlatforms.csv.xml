@@ -1,0 +1,122 @@
+<TargetPlatforms>
+  <TargetPlatform>
+    <Name>JSFiddle</Name>
+    <ShortDescription>Simple web client</ShortDescription>
+    <Description>A JSFiddle implementation of every aspect of the specification.</Description>
+    <Implemented>TRUE</Implemented>
+    <DemoUrl>https://jsfiddle.net/eejai42/g5ndz2mp/</DemoUrl>
+    <HasAnyUI>TRUE</HasAnyUI>
+    <IsHumanyPlayable>TRUE</IsHumanyPlayable>
+    <HasAnyAI>TRUE</HasAnyAI>
+    <DetectsWin>TRUE</DetectsWin>
+    <DetectsLoss>TRUE</DetectsLoss>
+    <DetectsTie>FALSE</DetectsTie>
+    <HasRuleFollowingAI>TRUE</HasRuleFollowingAI>
+    <HasUIForHuman>TRUE</HasUIForHuman>
+    <FullSimpleRules>FALSE</FullSimpleRules>
+    <FullMLAI>FALSE</FullMLAI>
+    <ImplementsRotate>TRUE</ImplementsRotate>
+    <ImplementsFlip>TRUE</ImplementsFlip>
+    <ImplementsCustomTranslations>TRUE</ImplementsCustomTranslations>
+  </TargetPlatform>
+  <TargetPlatform>
+    <Name>Windows</Name>
+    <ShortDescription>Windows App</ShortDescription>
+    <Description>A windows forms version of the game, which also implements every aspect of the game.</Description>
+    <Implemented>TRUE</Implemented>
+    <DemoUrl>https://eejai42.sdks.codeiverse.com/ClickOnce/TicTacToe/publish.htm</DemoUrl>
+    <HasAnyUI>FALSE</HasAnyUI>
+    <IsHumanyPlayable>FALSE</IsHumanyPlayable>
+    <HasAnyAI>FALSE</HasAnyAI>
+    <DetectsWin>FALSE</DetectsWin>
+    <DetectsLoss>FALSE</DetectsLoss>
+    <DetectsTie>FALSE</DetectsTie>
+    <HasRuleFollowingAI>FALSE</HasRuleFollowingAI>
+    <HasUIForHuman>FALSE</HasUIForHuman>
+    <FullSimpleRules>FALSE</FullSimpleRules>
+    <FullMLAI>FALSE</FullMLAI>
+    <ImplementsRotate>FALSE</ImplementsRotate>
+    <ImplementsFlip>FALSE</ImplementsFlip>
+    <ImplementsCustomTranslations>FALSE</ImplementsCustomTranslations>
+  </TargetPlatform>
+  <TargetPlatform>
+    <Name>GDocs</Name>
+    <ShortDescription>Documentation</ShortDescription>
+    <Description>The original source documentation (not really a target I guess :) )</Description>
+    <Implemented>TRUE</Implemented>
+    <DemoUrl>https://docs.google.com/spreadsheets/d/1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90/edit#gid=0</DemoUrl>
+    <HasAnyUI>FALSE</HasAnyUI>
+    <IsHumanyPlayable>FALSE</IsHumanyPlayable>
+    <HasAnyAI>FALSE</HasAnyAI>
+    <DetectsWin>FALSE</DetectsWin>
+    <DetectsLoss>FALSE</DetectsLoss>
+    <DetectsTie>FALSE</DetectsTie>
+    <HasRuleFollowingAI>FALSE</HasRuleFollowingAI>
+    <HasUIForHuman>FALSE</HasUIForHuman>
+    <FullSimpleRules>FALSE</FullSimpleRules>
+    <FullMLAI>FALSE</FullMLAI>
+    <ImplementsRotate>FALSE</ImplementsRotate>
+    <ImplementsFlip>FALSE</ImplementsFlip>
+    <ImplementsCustomTranslations>FALSE</ImplementsCustomTranslations>
+  </TargetPlatform>
+  <TargetPlatform>
+    <Name>Html</Name>
+    <ShortDescription>Documentation</ShortDescription>
+    <Description>The resulting HTML version of the wiki</Description>
+    <Implemented>TRUE</Implemented>
+    <DemoUrl>https://eejai42.sdks.codeiverse.com/TicTacToeSDK/Docs/ReadMe.html</DemoUrl>
+    <HasAnyUI>FALSE</HasAnyUI>
+    <IsHumanyPlayable>FALSE</IsHumanyPlayable>
+    <HasAnyAI>FALSE</HasAnyAI>
+    <DetectsWin>FALSE</DetectsWin>
+    <DetectsLoss>FALSE</DetectsLoss>
+    <DetectsTie>FALSE</DetectsTie>
+    <HasRuleFollowingAI>FALSE</HasRuleFollowingAI>
+    <HasUIForHuman>FALSE</HasUIForHuman>
+    <FullSimpleRules>FALSE</FullSimpleRules>
+    <FullMLAI>FALSE</FullMLAI>
+    <ImplementsRotate>FALSE</ImplementsRotate>
+    <ImplementsFlip>FALSE</ImplementsFlip>
+    <ImplementsCustomTranslations>FALSE</ImplementsCustomTranslations>
+  </TargetPlatform>
+  <TargetPlatform>
+    <Name>Javascript</Name>
+    <ShortDescription>TTT Library</ShortDescription>
+    <Description>A javascript library (which implements the SDK)</Description>
+    <Implemented>TRUE</Implemented>
+    <DemoUrl>https://eejai42.sdks.codeiverse.com/TicTacToeSDK/Docs/Translations.html</DemoUrl>
+    <HasAnyUI>FALSE</HasAnyUI>
+    <IsHumanyPlayable>FALSE</IsHumanyPlayable>
+    <HasAnyAI>FALSE</HasAnyAI>
+    <DetectsWin>FALSE</DetectsWin>
+    <DetectsLoss>FALSE</DetectsLoss>
+    <DetectsTie>FALSE</DetectsTie>
+    <HasRuleFollowingAI>FALSE</HasRuleFollowingAI>
+    <HasUIForHuman>FALSE</HasUIForHuman>
+    <FullSimpleRules>FALSE</FullSimpleRules>
+    <FullMLAI>FALSE</FullMLAI>
+    <ImplementsRotate>FALSE</ImplementsRotate>
+    <ImplementsFlip>FALSE</ImplementsFlip>
+    <ImplementsCustomTranslations>FALSE</ImplementsCustomTranslations>
+  </TargetPlatform>
+  <TargetPlatform>
+    <Name>CSharp</Name>
+    <ShortDescription>TTT Library</ShortDescription>
+    <Description>A csharp library which implements the SDK</Description>
+    <Implemented>TRUE</Implemented>
+    <DemoUrl>https://eejai42.sdks.codeiverse.com/ClickOnce/TicTacToe/publish.htm</DemoUrl>
+    <HasAnyUI>FALSE</HasAnyUI>
+    <IsHumanyPlayable>FALSE</IsHumanyPlayable>
+    <HasAnyAI>FALSE</HasAnyAI>
+    <DetectsWin>FALSE</DetectsWin>
+    <DetectsLoss>FALSE</DetectsLoss>
+    <DetectsTie>FALSE</DetectsTie>
+    <HasRuleFollowingAI>FALSE</HasRuleFollowingAI>
+    <HasUIForHuman>FALSE</HasUIForHuman>
+    <FullSimpleRules>FALSE</FullSimpleRules>
+    <FullMLAI>FALSE</FullMLAI>
+    <ImplementsRotate>FALSE</ImplementsRotate>
+    <ImplementsFlip>FALSE</ImplementsFlip>
+    <ImplementsCustomTranslations>FALSE</ImplementsCustomTranslations>
+  </TargetPlatform>
+</TargetPlatforms>

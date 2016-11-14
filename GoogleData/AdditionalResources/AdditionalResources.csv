@@ -1,0 +1,14 @@
+Name,Description,Type,GoogleKey,GID,IsActiveDownload
+Settings,Global settings for the entire TicTacToe project,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,0,FALSE
+AdditionalResources,A list of additional resources used by the project,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,1887184744,FALSE
+ProjectIntro,An introduction to the project,GDoc,1LVxFmVcm2DgzH2AGNQ4c9buus16l42a6aNhEmwqjWzs,,TRUE
+Entities,"A list of entities in the project (Player, Opponent, Game, Mark, Win, Loss, etc)",GSheet,1C_awugxQh7vQx4cCKGK7YKynOEUNdvT0htLzESZqhHA,0,FALSE
+LanguageTokens,A list of language tokens used in the app.,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,112651157,TRUE
+AILevels,A list of AI Levels which the game supports starting with None (no ai) and working up to an AI that will win or tie every game.,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,260512170,TRUE
+AIStrategies,"A list of strategies used by the AI, and which AI levels that start be used at.",GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,780350443,TRUE
+Translations,A list of transaltions which any implementation of this game needs to support,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,1319606678,TRUE
+Cells,A formal list of the cells in the 3x3 game of tic tac toe.,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,1934124403,TRUE
+CellPatterns,A list of cells and a target if a match is found.,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,412235242,TRUE
+CellStates,A list of states that a cell can have,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,194238261,TRUE
+TranslationTests,These values validate the rotate and flip index values,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,1640541132,TRUE
+TargetPlatforms,A list of target platforms that the SDK will support,GSheet,1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90,2077194606,TRUE

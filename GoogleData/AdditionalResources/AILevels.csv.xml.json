@@ -1,0 +1,41 @@
+{
+  "AILevels": {
+    "AILevel": [
+      {
+        "Name": "Human",
+        "PlayerType": "Human",
+        "MinAILevelIndex": "-1",
+        "AILevelIndex": "-1",
+        "Description": "No strategies are employed.  Player of this type wil wait to be told what to do.  A Human TicTacToe Interface (UI) is needed for this type of player."
+      },
+      {
+        "Name": "Beginner",
+        "PlayerType": "SimpleRules",
+        "MinAILevelIndex": "0",
+        "AILevelIndex": "1",
+        "Description": "Wins, prevents a win or plays randomly."
+      },
+      {
+        "Name": "Intermediate",
+        "PlayerType": "SimpleRules",
+        "MinAILevelIndex": "0",
+        "AILevelIndex": "2",
+        "Description": "Looks 1 move ahead and also follows all beginner rules."
+      },
+      {
+        "Name": "Advanced",
+        "PlayerType": "SimpleRules",
+        "MinAILevelIndex": "0",
+        "AILevelIndex": "3",
+        "Description": "The best - all strategies are employed.  This AI should never lose.  It will only win if the opponent makes a mistake, but otherwise, it at least tie."
+      },
+      {
+        "Name": "AI",
+        "PlayerType": "MLAI",
+        "MinAILevelIndex": "10",
+        "AILevelIndex": "10",
+        "Description": "An AI which has not pre-programmed rules, and instead just keeps track of his moves, and weights the moves that lead to a win more heavily that moves which don't."
+      }
+    ]
+  }
+}

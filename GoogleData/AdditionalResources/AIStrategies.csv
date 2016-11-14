@@ -1,0 +1,12 @@
+Name,Description,PlayerLevel,IsDefensive,StrategyRank
+WaitsForInstruction,Plays as proxy for a human.  A UI is needed to communicate the human's intentions.,-1,,1
+Random,Choice from a random selection amongst available cells,0,,100
+PlayInMiddleIfAvailable,"If there are no other winning strategies, play in the middle cell",1,,90
+WinIfPossible,"If any two cells are already filled in by the AI, and the 3rd cell in that row is available, play there.",1,FALSE,1
+PreventWinIfPossible,Prevent opponent from using WinIfPossible strategy,1,TRUE,2
+ForceWinNextTurn,"Check for a move that will force a win the next turn, regardless of what the opponent does.",2,FALSE,3
+PreventForceWinNextTurn,Prevent opponent from using ForceWinNextTurn strategy,2,TRUE,4
+PlayInCornerIfAvailable,"If there are any corner positions available, player there",2,,95
+SetupForceWinNextTurn,Check if there's a move which will allow a force win next turn.,3,FALSE,5
+PreventSetupForceWinNextTurn,Prevent opponent from using SetupForceWinNextTurn strategy,3,TRUE,6
+LearnFromMistakes,"Plays randomly, but keeps track of what moves are made, and learn from mistakes",10,,1

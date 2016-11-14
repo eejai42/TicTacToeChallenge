@@ -1,0 +1,66 @@
+{
+  "LanguageTokens": {
+    "LanguageToken": [
+      {
+        "Token": "Title",
+        "DisplayName": "3x3 Tic Tac Toe",
+        "FRDisplayName": "3x3 Tic Tac Toe"
+      },
+      {
+        "Token": "GameOn",
+        "DisplayName": "Game On",
+        "FRDisplayName": "Jeu sur"
+      },
+      {
+        "Token": "GameOver",
+        "DisplayName": "Game Over",
+        "FRDisplayName": "Jeu terminé"
+      },
+      {
+        "Token": "YourTurn",
+        "DisplayName": "It's your turn",
+        "FRDisplayName": "It's your turn"
+      },
+      {
+        "Token": "TheirTurn",
+        "DisplayName": "It's their turn",
+        "FRDisplayName": "It's their turn"
+      },
+      {
+        "Token": "YouWon",
+        "DisplayName": "You won",
+        "FRDisplayName": "Vous êtes le gagnant du jeu"
+      },
+      {
+        "Token": "TheyWon",
+        "DisplayName": "You lost",
+        "FRDisplayName": "Désolé, vous n'avez pas gagné."
+      },
+      {
+        "Token": "Play",
+        "DisplayName": "Let's Play!",
+        "FRDisplayName": "Jouons!"
+      },
+      {
+        "Token": "Resign",
+        "DisplayName": "I'm out - You got this one!",
+        "FRDisplayName": "Je suis dehors - Vous avez celui-ci!"
+      },
+      {
+        "Token": "PlayAgain",
+        "DisplayName": "Let's Play Again!",
+        "FRDisplayName": "Jouons encore!"
+      },
+      {
+        "Token": "Restart",
+        "DisplayName": "Restart the game",
+        "FRDisplayName": "Redémarrer le jeu"
+      },
+      {
+        "Token": "Thinking",
+        "DisplayName": "Hang on, I'm thinking...",
+        "FRDisplayName": "Hang on, I'm thinking..."
+      }
+    ]
+  }
+}

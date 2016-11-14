@@ -1,0 +1,12 @@
+<Translations>
+  <Translation>
+    <Id>0</Id>
+    <Name>Rotate</Name>
+    <Description><![CDATA[Rotate 3x3 "board" 90 degrees RIGHT-hand (CLOCKWISE) around the middle cell]]></Description>
+  </Translation>
+  <Translation>
+    <Id>1</Id>
+    <Name>Flip</Name>
+    <Description>Flip the board along the vertical axis</Description>
+  </Translation>
+</Translations>

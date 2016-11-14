@@ -1,0 +1,10 @@
+Name,Description,Cells,Target,Translations,IsWinPattern
+EdgeWin,"Starting with the top row, 3 additional rotates will find all edge wins.",00;10;20;,,30;,TRUE
+MiddleWin,"Starting with the middle row selected, a single rotations finds both middle wins",30;40;50;,,10;,TRUE
+DiagonalWin,"Starting with the top-left to bottom-right diagonal, a single rotation finds both diagonal winning positions.",00;40;80;,,10;,TRUE
+TwoInARowTop,"Two marks top left, top middle with top right empty - and then a full rotation/flip scheme.",00;10;22;,22;,30;11;30,FALSE
+TwoInARowMiddle,"Two in a row on the middle row, right side empty - finds all positions with 3 rotations.",30;40;52;,52;,30;,FALSE
+TwoInARowDiagonal,"Two in a row on the diagonal, with the third cell empty - finds all positions with 3 rotations.",00;40;82;,82;,30;,FALSE
+TwoOutsideTop,"Top left and top right filled, middle empty - finds all positions with 3 rotations.",00;12;20;,12;,30;,FALSE
+TwoOutsideMiddle,"Middle left and right, center empty - 1 rotation finds the one variation of the starting pattern.",30;42;50;,42;,10;,FALSE
+TowOutsideDiagonal,Top left and bottom right with middle empty  - 1 rotation finds the one variation of the starting pattern.,00;42;80;,42;,10;,FALSE

@@ -1,0 +1,74 @@
+<AIStrategies>
+  <AIStrategy>
+    <Name>WaitsForInstruction</Name>
+    <Description>Plays as proxy for a human.  A UI is needed to communicate the human's intentions.</Description>
+    <PlayerLevel>-1</PlayerLevel>
+    <StrategyRank>1</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>Random</Name>
+    <Description>Choice from a random selection amongst available cells</Description>
+    <PlayerLevel>0</PlayerLevel>
+    <StrategyRank>100</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>PlayInMiddleIfAvailable</Name>
+    <Description>If there are no other winning strategies, play in the middle cell</Description>
+    <PlayerLevel>1</PlayerLevel>
+    <StrategyRank>90</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>WinIfPossible</Name>
+    <Description>If any two cells are already filled in by the AI, and the 3rd cell in that row is available, play there.</Description>
+    <PlayerLevel>1</PlayerLevel>
+    <IsDefensive>FALSE</IsDefensive>
+    <StrategyRank>1</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>PreventWinIfPossible</Name>
+    <Description>Prevent opponent from using WinIfPossible strategy</Description>
+    <PlayerLevel>1</PlayerLevel>
+    <IsDefensive>TRUE</IsDefensive>
+    <StrategyRank>2</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>ForceWinNextTurn</Name>
+    <Description>Check for a move that will force a win the next turn, regardless of what the opponent does.</Description>
+    <PlayerLevel>2</PlayerLevel>
+    <IsDefensive>FALSE</IsDefensive>
+    <StrategyRank>3</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>PreventForceWinNextTurn</Name>
+    <Description>Prevent opponent from using ForceWinNextTurn strategy</Description>
+    <PlayerLevel>2</PlayerLevel>
+    <IsDefensive>TRUE</IsDefensive>
+    <StrategyRank>4</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>PlayInCornerIfAvailable</Name>
+    <Description>If there are any corner positions available, player there</Description>
+    <PlayerLevel>2</PlayerLevel>
+    <StrategyRank>95</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>SetupForceWinNextTurn</Name>
+    <Description>Check if there's a move which will allow a force win next turn.</Description>
+    <PlayerLevel>3</PlayerLevel>
+    <IsDefensive>FALSE</IsDefensive>
+    <StrategyRank>5</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>PreventSetupForceWinNextTurn</Name>
+    <Description>Prevent opponent from using SetupForceWinNextTurn strategy</Description>
+    <PlayerLevel>3</PlayerLevel>
+    <IsDefensive>TRUE</IsDefensive>
+    <StrategyRank>6</StrategyRank>
+  </AIStrategy>
+  <AIStrategy>
+    <Name>LearnFromMistakes</Name>
+    <Description>Plays randomly, but keeps track of what moves are made, and learn from mistakes</Description>
+    <PlayerLevel>10</PlayerLevel>
+    <StrategyRank>1</StrategyRank>
+  </AIStrategy>
+</AIStrategies>

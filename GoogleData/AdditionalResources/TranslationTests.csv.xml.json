@@ -1,0 +1,54 @@
+{
+  "TranslationTests": {
+    "TranslationTest": [
+      {
+        "Name": "Original",
+        "Row": "1",
+        "Col1": "A",
+        "Col2": "B",
+        "Col3": "C"
+      },
+      {
+        "Name": "Original",
+        "Row": "2",
+        "Col1": "d",
+        "Col2": "e",
+        "Col3": "f"
+      },
+      {
+        "Name": "Original",
+        "Row": "3",
+        "Col1": "g",
+        "Col2": "h",
+        "Col3": "i"
+      },
+      {
+        "Name": "TestTransform",
+        "Row": "1",
+        "Col1": "g",
+        "Col2": "d",
+        "Col3": "A"
+      },
+      {
+        "Name": "TestTransform",
+        "Row": "2",
+        "Col1": "h",
+        "Col2": "e",
+        "Col3": "B"
+      },
+      {
+        "Name": "TestTransform",
+        "Row": "3",
+        "Col1": "i",
+        "Col2": "f",
+        "Col3": "C"
+      },
+      {
+        "Name": "Rotate Desc"
+      },
+      {
+        "Name": "Flip Desc"
+      }
+    ]
+  }
+}

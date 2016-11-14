@@ -1,0 +1,75 @@
+{
+  "CellPatterns": {
+    "CellPattern": [
+      {
+        "Name": "EdgeWin",
+        "Description": "Starting with the top row, 3 additional rotates will find all edge wins.",
+        "Cells": "00;10;20;",
+        "Translations": "30;",
+        "IsWinPattern": "TRUE"
+      },
+      {
+        "Name": "MiddleWin",
+        "Description": "Starting with the middle row selected, a single rotations finds both middle wins",
+        "Cells": "30;40;50;",
+        "Translations": "10;",
+        "IsWinPattern": "TRUE"
+      },
+      {
+        "Name": "DiagonalWin",
+        "Description": "Starting with the top-left to bottom-right diagonal, a single rotation finds both diagonal winning positions.",
+        "Cells": "00;40;80;",
+        "Translations": "10;",
+        "IsWinPattern": "TRUE"
+      },
+      {
+        "Name": "TwoInARowTop",
+        "Description": "Two marks top left, top middle with top right empty - and then a full rotation/flip scheme.",
+        "Cells": "00;10;22;",
+        "Target": "22;",
+        "Translations": "30;11;30",
+        "IsWinPattern": "FALSE"
+      },
+      {
+        "Name": "TwoInARowMiddle",
+        "Description": "Two in a row on the middle row, right side empty - finds all positions with 3 rotations.",
+        "Cells": "30;40;52;",
+        "Target": "52;",
+        "Translations": "30;",
+        "IsWinPattern": "FALSE"
+      },
+      {
+        "Name": "TwoInARowDiagonal",
+        "Description": "Two in a row on the diagonal, with the third cell empty - finds all positions with 3 rotations.",
+        "Cells": "00;40;82;",
+        "Target": "82;",
+        "Translations": "30;",
+        "IsWinPattern": "FALSE"
+      },
+      {
+        "Name": "TwoOutsideTop",
+        "Description": "Top left and top right filled, middle empty - finds all positions with 3 rotations.",
+        "Cells": "00;12;20;",
+        "Target": "12;",
+        "Translations": "30;",
+        "IsWinPattern": "FALSE"
+      },
+      {
+        "Name": "TwoOutsideMiddle",
+        "Description": "Middle left and right, center empty - 1 rotation finds the one variation of the starting pattern.",
+        "Cells": "30;42;50;",
+        "Target": "42;",
+        "Translations": "10;",
+        "IsWinPattern": "FALSE"
+      },
+      {
+        "Name": "TowOutsideDiagonal",
+        "Description": "Top left and bottom right with middle empty  - 1 rotation finds the one variation of the starting pattern.",
+        "Cells": "00;42;80;",
+        "Target": "42;",
+        "Translations": "10;",
+        "IsWinPattern": "FALSE"
+      }
+    ]
+  }
+}

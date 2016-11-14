@@ -1,0 +1,6 @@
+Name,PlayerType,MinAILevelIndex,AILevelIndex,Description
+Human,Human,-1,-1,No strategies are employed.  Player of this type wil wait to be told what to do.  A Human TicTacToe Interface (UI) is needed for this type of player.
+Beginner,SimpleRules,0,1,"Wins, prevents a win or plays randomly."
+Intermediate,SimpleRules,0,2,Looks 1 move ahead and also follows all beginner rules.
+Advanced,SimpleRules,0,3,"The best - all strategies are employed.  This AI should never lose.  It will only win if the opponent makes a mistake, but otherwise, it at least tie."
+AI,MLAI,10,10,"An AI which has not pre-programmed rules, and instead just keeps track of his moves, and weights the moves that lead to a win more heavily that moves which don't."

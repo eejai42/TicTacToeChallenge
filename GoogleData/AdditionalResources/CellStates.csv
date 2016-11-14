@@ -1,0 +1,4 @@
+Name,Id,Code,Description,Color,FontColor,DefaultMark,Cursor
+You,0,Y,This cell has been marked by the active player,red,white,X,Default
+Them,1,T,This cell has been marked by thhe active player's opponent.,black,white,O,Default
+NoOne,2,N,The space has not yet been played in,white,darkgray,,Pointer

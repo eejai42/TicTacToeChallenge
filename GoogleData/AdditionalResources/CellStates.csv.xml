@@ -1,0 +1,31 @@
+<CellStates>
+  <CellState>
+    <Name>You</Name>
+    <Id>0</Id>
+    <Code>Y</Code>
+    <Description>This cell has been marked by the active player</Description>
+    <Color>red</Color>
+    <FontColor>white</FontColor>
+    <DefaultMark>X</DefaultMark>
+    <Cursor>Default</Cursor>
+  </CellState>
+  <CellState>
+    <Name>Them</Name>
+    <Id>1</Id>
+    <Code>T</Code>
+    <Description>This cell has been marked by thhe active player's opponent.</Description>
+    <Color>black</Color>
+    <FontColor>white</FontColor>
+    <DefaultMark>O</DefaultMark>
+    <Cursor>Default</Cursor>
+  </CellState>
+  <CellState>
+    <Name>NoOne</Name>
+    <Id>2</Id>
+    <Code>N</Code>
+    <Description>The space has not yet been played in</Description>
+    <Color>white</Color>
+    <FontColor>darkgray</FontColor>
+    <Cursor>Pointer</Cursor>
+  </CellState>
+</CellStates>

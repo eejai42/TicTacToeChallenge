@@ -1,0 +1,132 @@
+{
+  "Cells": {
+    "Cell": [
+      {
+        "Name": "TopLeft",
+        "SampleValue": "A",
+        "CellIndex": "0",
+        "RotateIndex": "6",
+        "FlipIndex": "2",
+        "DefaultState": "NoOne",
+        "CurrentState": "You",
+        "Description": "Cell 0,0",
+        "X": "0",
+        "Y": "0",
+        "TestTranslation": "6",
+        "TestTranslationSample": "g"
+      },
+      {
+        "Name": "Top",
+        "SampleValue": "B",
+        "CellIndex": "1",
+        "RotateIndex": "3",
+        "FlipIndex": "1",
+        "DefaultState": "NoOne",
+        "CurrentState": "Them",
+        "Description": "Cell 0,1",
+        "X": "0",
+        "Y": "1",
+        "TestTranslation": "3",
+        "TestTranslationSample": "d"
+      },
+      {
+        "Name": "TopRight",
+        "SampleValue": "C",
+        "CellIndex": "2",
+        "RotateIndex": "0",
+        "FlipIndex": "0",
+        "DefaultState": "NoOne",
+        "CurrentState": "NoOne",
+        "Description": "Cell 0,2",
+        "X": "0",
+        "Y": "2",
+        "TestTranslation": "0",
+        "TestTranslationSample": "A"
+      },
+      {
+        "Name": "MiddleLeft",
+        "SampleValue": "d",
+        "CellIndex": "3",
+        "RotateIndex": "7",
+        "FlipIndex": "5",
+        "DefaultState": "NoOne",
+        "CurrentState": "NoOne",
+        "Description": "Cell 1,0",
+        "X": "1",
+        "Y": "0",
+        "TestTranslation": "7",
+        "TestTranslationSample": "h"
+      },
+      {
+        "Name": "Middle",
+        "SampleValue": "e",
+        "CellIndex": "4",
+        "RotateIndex": "4",
+        "FlipIndex": "4",
+        "DefaultState": "NoOne",
+        "CurrentState": "You",
+        "Description": "Cell 1,1",
+        "X": "1",
+        "Y": "1",
+        "TestTranslation": "4",
+        "TestTranslationSample": "e"
+      },
+      {
+        "Name": "MiddleRight",
+        "SampleValue": "f",
+        "CellIndex": "5",
+        "RotateIndex": "1",
+        "FlipIndex": "3",
+        "DefaultState": "NoOne",
+        "CurrentState": "NoOne",
+        "Description": "Cell 1,2",
+        "X": "1",
+        "Y": "2",
+        "TestTranslation": "1",
+        "TestTranslationSample": "B"
+      },
+      {
+        "Name": "BottomLeft",
+        "SampleValue": "g",
+        "CellIndex": "6",
+        "RotateIndex": "8",
+        "FlipIndex": "8",
+        "DefaultState": "NoOne",
+        "CurrentState": "NoOne",
+        "Description": "Cell 2,0",
+        "X": "2",
+        "Y": "0",
+        "TestTranslation": "8",
+        "TestTranslationSample": "i"
+      },
+      {
+        "Name": "Bottom",
+        "SampleValue": "h",
+        "CellIndex": "7",
+        "RotateIndex": "5",
+        "FlipIndex": "7",
+        "DefaultState": "NoOne",
+        "CurrentState": "NoOne",
+        "Description": "Cell 2,1",
+        "X": "2",
+        "Y": "1",
+        "TestTranslation": "5",
+        "TestTranslationSample": "f"
+      },
+      {
+        "Name": "BottomRight",
+        "SampleValue": "i",
+        "CellIndex": "8",
+        "RotateIndex": "2",
+        "FlipIndex": "6",
+        "DefaultState": "NoOne",
+        "CurrentState": "Them",
+        "Description": "Cell 2,2",
+        "X": "2",
+        "Y": "2",
+        "TestTranslation": "2",
+        "TestTranslationSample": "C"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+<TranslationTests>
+  <TranslationTest>
+    <Name>Original</Name>
+    <Row>1</Row>
+    <Col1>A</Col1>
+    <Col2>B</Col2>
+    <Col3>C</Col3>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>Original</Name>
+    <Row>2</Row>
+    <Col1>d</Col1>
+    <Col2>e</Col2>
+    <Col3>f</Col3>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>Original</Name>
+    <Row>3</Row>
+    <Col1>g</Col1>
+    <Col2>h</Col2>
+    <Col3>i</Col3>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>TestTransform</Name>
+    <Row>1</Row>
+    <Col1>g</Col1>
+    <Col2>d</Col2>
+    <Col3>A</Col3>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>TestTransform</Name>
+    <Row>2</Row>
+    <Col1>h</Col1>
+    <Col2>e</Col2>
+    <Col3>B</Col3>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>TestTransform</Name>
+    <Row>3</Row>
+    <Col1>i</Col1>
+    <Col2>f</Col2>
+    <Col3>C</Col3>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>Rotate Desc</Name>
+  </TranslationTest>
+  <TranslationTest>
+    <Name>Flip Desc</Name>
+  </TranslationTest>
+</TranslationTests>

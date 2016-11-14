@@ -1,0 +1,3 @@
+Id,Name,Description
+0,Rotate,"Rotate 3x3 ""board"" 90 degrees RIGHT-hand (CLOCKWISE) around the middle cell"
+1,Flip,Flip the board along the vertical axis

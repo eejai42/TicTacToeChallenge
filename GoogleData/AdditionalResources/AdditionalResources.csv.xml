@@ -1,0 +1,105 @@
+<AdditionalResources>
+  <AdditionalResource>
+    <Name>Settings</Name>
+    <Description>Global settings for the entire TicTacToe project</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>0</GID>
+    <IsActiveDownload>FALSE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>AdditionalResources</Name>
+    <Description>A list of additional resources used by the project</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>1887184744</GID>
+    <IsActiveDownload>FALSE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>ProjectIntro</Name>
+    <Description>An introduction to the project</Description>
+    <Type>GDoc</Type>
+    <GoogleKey>1LVxFmVcm2DgzH2AGNQ4c9buus16l42a6aNhEmwqjWzs</GoogleKey>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>Entities</Name>
+    <Description>A list of entities in the project (Player, Opponent, Game, Mark, Win, Loss, etc)</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1C_awugxQh7vQx4cCKGK7YKynOEUNdvT0htLzESZqhHA</GoogleKey>
+    <GID>0</GID>
+    <IsActiveDownload>FALSE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>LanguageTokens</Name>
+    <Description>A list of language tokens used in the app.</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>112651157</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>AILevels</Name>
+    <Description>A list of AI Levels which the game supports starting with None (no ai) and working up to an AI that will win or tie every game.</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>260512170</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>AIStrategies</Name>
+    <Description>A list of strategies used by the AI, and which AI levels that start be used at.</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>780350443</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>Translations</Name>
+    <Description>A list of transaltions which any implementation of this game needs to support</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>1319606678</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>Cells</Name>
+    <Description>A formal list of the cells in the 3x3 game of tic tac toe.</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>1934124403</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>CellPatterns</Name>
+    <Description>A list of cells and a target if a match is found.</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>412235242</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>CellStates</Name>
+    <Description>A list of states that a cell can have</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>194238261</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>TranslationTests</Name>
+    <Description>These values validate the rotate and flip index values</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>1640541132</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+  <AdditionalResource>
+    <Name>TargetPlatforms</Name>
+    <Description>A list of target platforms that the SDK will support</Description>
+    <Type>GSheet</Type>
+    <GoogleKey>1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90</GoogleKey>
+    <GID>2077194606</GID>
+    <IsActiveDownload>TRUE</IsActiveDownload>
+  </AdditionalResource>
+</AdditionalResources>

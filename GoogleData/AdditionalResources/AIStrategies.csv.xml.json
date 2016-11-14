@@ -1,0 +1,78 @@
+{
+  "AIStrategies": {
+    "AIStrategy": [
+      {
+        "Name": "WaitsForInstruction",
+        "Description": "Plays as proxy for a human.  A UI is needed to communicate the human's intentions.",
+        "PlayerLevel": "-1",
+        "StrategyRank": "1"
+      },
+      {
+        "Name": "Random",
+        "Description": "Choice from a random selection amongst available cells",
+        "PlayerLevel": "0",
+        "StrategyRank": "100"
+      },
+      {
+        "Name": "PlayInMiddleIfAvailable",
+        "Description": "If there are no other winning strategies, play in the middle cell",
+        "PlayerLevel": "1",
+        "StrategyRank": "90"
+      },
+      {
+        "Name": "WinIfPossible",
+        "Description": "If any two cells are already filled in by the AI, and the 3rd cell in that row is available, play there.",
+        "PlayerLevel": "1",
+        "IsDefensive": "FALSE",
+        "StrategyRank": "1"
+      },
+      {
+        "Name": "PreventWinIfPossible",
+        "Description": "Prevent opponent from using WinIfPossible strategy",
+        "PlayerLevel": "1",
+        "IsDefensive": "TRUE",
+        "StrategyRank": "2"
+      },
+      {
+        "Name": "ForceWinNextTurn",
+        "Description": "Check for a move that will force a win the next turn, regardless of what the opponent does.",
+        "PlayerLevel": "2",
+        "IsDefensive": "FALSE",
+        "StrategyRank": "3"
+      },
+      {
+        "Name": "PreventForceWinNextTurn",
+        "Description": "Prevent opponent from using ForceWinNextTurn strategy",
+        "PlayerLevel": "2",
+        "IsDefensive": "TRUE",
+        "StrategyRank": "4"
+      },
+      {
+        "Name": "PlayInCornerIfAvailable",
+        "Description": "If there are any corner positions available, player there",
+        "PlayerLevel": "2",
+        "StrategyRank": "95"
+      },
+      {
+        "Name": "SetupForceWinNextTurn",
+        "Description": "Check if there's a move which will allow a force win next turn.",
+        "PlayerLevel": "3",
+        "IsDefensive": "FALSE",
+        "StrategyRank": "5"
+      },
+      {
+        "Name": "PreventSetupForceWinNextTurn",
+        "Description": "Prevent opponent from using SetupForceWinNextTurn strategy",
+        "PlayerLevel": "3",
+        "IsDefensive": "TRUE",
+        "StrategyRank": "6"
+      },
+      {
+        "Name": "LearnFromMistakes",
+        "Description": "Plays randomly, but keeps track of what moves are made, and learn from mistakes",
+        "PlayerLevel": "10",
+        "StrategyRank": "1"
+      }
+    ]
+  }
+}

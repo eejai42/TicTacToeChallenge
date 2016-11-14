@@ -1,0 +1,10 @@
+Name,SampleValue,CellIndex,RotateIndex,FlipIndex,DefaultState,CurrentState,Description,X,Y,TestTranslation,TestTranslationSample
+TopLeft,A,0,6,2,NoOne,You,"Cell 0,0",0,0,6,g
+Top,B,1,3,1,NoOne,Them,"Cell 0,1",0,1,3,d
+TopRight,C,2,0,0,NoOne,NoOne,"Cell 0,2",0,2,0,A
+MiddleLeft,d,3,7,5,NoOne,NoOne,"Cell 1,0",1,0,7,h
+Middle,e,4,4,4,NoOne,You,"Cell 1,1",1,1,4,e
+MiddleRight,f,5,1,3,NoOne,NoOne,"Cell 1,2",1,2,1,B
+BottomLeft,g,6,8,8,NoOne,NoOne,"Cell 2,0",2,0,8,i
+Bottom,h,7,5,7,NoOne,NoOne,"Cell 2,1",2,1,5,f
+BottomRight,i,8,2,6,NoOne,Them,"Cell 2,2",2,2,2,C
