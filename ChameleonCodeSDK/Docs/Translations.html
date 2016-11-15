@@ -1,0 +1,92 @@
+<html><title>
+                                Board Translations....
+                            </title><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" xmlns:date="urn:sample" xmlns:uscdl="uscdl.net" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" xmlns:date="urn:sample" xmlns:uscdl="uscdl.net" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" xmlns:date="urn:sample" xmlns:uscdl="uscdl.net"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" xmlns:date="urn:sample" xmlns:uscdl="uscdl.net"></script><script src="../TTTJS/Derived_TicTacToe.js" type="text/javascript"></script><script src="../TTTJS/TicTacToe.js" type="text/javascript"></script><head /><body style="padding: 1em;"><h1>Translations
+                (<a target="_blank" href="https://docs.google.com/spreadsheets/d/1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90/edit#gid=1319606678">
+                    edit
+                </a>)
+            </h1><p><a href="ReadMe.html"><< Home</a> | <a href="TheBoard.html">The Board</a> | <a href="PlayerLevels.html">Types of Player</a> | <a href="TargetPlatforms.html">Target Platforms</a> | Translations | <a href="CellPatterns.html">Cell Patterns</a> | <a href="/Codee42/StartBuild?projectName=TicTacToe&scriptName=Cook&returnUrl=/TicTacToeSDK/Docs/Translations.html">Quick Build</a></p><div><a href="https://docs.google.com/spreadsheets/d/1xpLGHj6wHyot9Kp2lpKTG8AcKJNMSkxjp-aTQT7yB90/edit#gid=1934124403" target="_blank">Edit Map</a></div><p>
+                                    There are a number of patterns which occur in TicTacToe, which are then
+                                    repeated through various cell translations.  In other words, the same
+                                    operation needs can be performed repeatedly after (for example) rotating
+                                    the board after each evalution. The board can be "translated" or transformed in the following ways..
+                                </p><h3>SDK Complete 'Board' functionality</h3><p>
+                                    A "complete" implementation of this specification would include the following
+                                    translations that could be performed on a "board".  This specification says nothing about
+                                    HOW these translations shall be implemented - only that they must be implemented, and
+                                    what the end result needs to be.
+                                </p><ol><li><div style="font-size: 1.1em; font-weight: bold"><a href="Translation_Rotate.html">Rotate</a></div><p>Rotate 3x3 "board" 90 degrees RIGHT-hand (CLOCKWISE) around the middle cell</p><div style="clear: both"></div></li><li><div style="font-size: 1.1em; font-weight: bold"><a href="Translation_Flip.html">Flip</a></div><p>Flip the board along the vertical axis</p><div style="clear: both"></div></li></ol><h3>Javascript Translation Testing</h3><p>
+                                    The following board rotations are accomplished by assigning the Sample Values from the spec to
+                                    each cell on the baord, then calling 3 rotates, a flip and then 3 more rotates.  This takes the
+                                    board through every possible combination of cells.  But the exact translations are determined by "the spec".
+                                </p><script>
+                                  var b = jQueryBoard(function() {
+                                  var cellStateAttributeToPrint = 'DefaultMark'
+                                  b.printInfo('Initial Board', true, cellStateAttributeToPrint);
+                                  b.rotate();
+                                  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+                                  b.rotate();
+                                  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+                                  b.rotate();
+                                  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+                                  b.flip();
+                                  b.printInfo('Flipped Board', true, cellStateAttributeToPrint);
+                                  b.rotate();
+                                  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+                                  b.rotate();
+                                  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+                                  b.rotate();
+                                  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+                                  });
+                                  console.log(b);
+                                </script><div style="float: left; width: 45%"><pre>
+
+// Create a Board (in the sample player state) 
+// which uses jQuery to load the game parameters
+// The function parameter is invoked when the board 
+// parameters have been loaded.
+
+var b = jQueryBoard(function() {
+
+  var cellStateAttributeToPrint = 'DefaultMark'
+
+  // Print the board
+  b.printInfo('Initial Board', true, cellStateAttributeToPrint);
+  
+  
+  // Rotate - then Print()
+  b.rotate();
+  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+  
+  
+  // Rotate - then Print()
+  b.rotate();
+  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+  
+  
+  // Rotate - then Print()
+  b.rotate();
+  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+  
+  
+  //  ----- Flip ----- then Print()
+  b.flip();
+  b.printInfo('Flipped Board', true, cellStateAttributeToPrint);
+  
+  
+  // Rotate - then Print()
+  b.rotate();
+  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+  
+  
+  // Rotate - then Print()
+  b.rotate();
+  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+  
+  
+  // Rotate - then Print()
+  b.rotate();
+  b.printInfo('Rotated Board', true, cellStateAttributeToPrint);
+  
+  
+});
+                                </pre></div><div style="float: left; width: 45%"><pre style="padding-top: 6em;"><h3>Javascript Output</h3><span id="rotations" /></pre></div></body></html>
